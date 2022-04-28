@@ -1,4 +1,5 @@
-create a environment python=3.7
+create a environment 
+activate env
 
 ```
 bash
@@ -6,8 +7,6 @@ conda create -n wineq python=3.7 -y
 
 ```
 
-
-activate env
 
 ```
 bash
@@ -18,6 +17,8 @@ conda activate wineq
 create a req file 
 
 install the requirements.txt
+
+
 ```
 bash
 pip install -r requirements.txt
@@ -41,3 +42,4 @@ git remote add origin https://github.com/shuklasid19/wine.git
 git branch -m main
 git push origin main
 ```
+
